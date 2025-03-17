@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container{
+    margin-top: 10%;
+}
+
+.container-contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+.container-contain .img img{
+    width: 50%;
+    height: 50%;
+    border-radius: 20rem;
+}
+
+.container .container-div h1{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #000000;
+    text-align: center;
+}
+
+.container-div p{
+    color: #5a6377;
+    font-size: 1.5rem;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+}
+
+.container .images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:2rem ;
+    gap: 2rem;
+}
+
+
+
+.content .content-img{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 3rem; */
+}
+
+
+.content .content-img img{
+    /* margin-top: 2rem; */
+    width: 50%;
+    border: darkgrey;
+    /* background-color:; */
+    border-radius: 1rem;
+}
+
+
+.content-email{
+    margin-top: -30%;
+}
+
+.content-email h1{
+  font-family: "Kanit",sans-serif;
+  font-size: 2rem;
+  font-weight: 500 ;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 1rem;
+
+
+}
+
+
+.content-email p{
+    color: #5a6377;
+    font-size: 1.5rem;
+    font-family: "Kanit",sans-serif;
+    text-align: center;
+    
+}
+
+
+@media (max-width:480px) {
+    .container-contain{
+        display: block;
+       margin-top: 5rem;
+       text-align: center;
+    
+    
+    }
+    
+    
+    
+    
+    .container .container-div h1{
+       
+        margin-top: -0.1rem;
+    }
+    
+    .container-div p{
+        font-size: 0.7rem;
+        font-weight: 300;
+        
+    }
+    
+    .container .images{
+        gap: 1rem;
+    }
+
+
+
+    
+    .content-email h1{
+      font-size: 1rem;
+    
+    }
+    
+    
+    .content-email p{
+        font-size: 0.7rem;
+        
+    }
+    
+}
+
+
+@media (max-width:768px) {
+
+    .container-contain{
+        display: block;
+       margin-top: 5rem;
+       text-align: center;
+    
+    
+    }
+    
+
+    
+    .container .container-div h1{
+        margin-top: -0.1rem;
+        font-size: 4rem;
+    }
+    
+    .container-div p{
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-top: -3rem ;
+        
+    }
+    
+    .container .images{
+        gap: 1.5rem;
+    }
+
+
+
+    
+    .content-email h1{
+      font-size: 1.5rem;
+    
+    }
+    
+    
+    .content-email p{
+        font-size: 1rem;
+        
+    }
+    
+}

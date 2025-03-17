@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.container h1{
+    text-align: center;
+    color:  rgb(90, 99, 119);
+    font-size: 4rem;
+    font-weight: 700;
+    font-family:"Kanit", sans-serif ;
+    margin-bottom: 3rem;
+    animation-fill-mode: both;
+    animation-duration: 2000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    
+    animation-name: react-reveal-703250351393876-3;
+}
+
+
+@keyframes react-reveal-703250351393876-3 {
+             from{
+                opacity: 0;
+
+             }
+             to{
+                 opacity: 1;
+             }
+
+}
+
+.container .greeting{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* .container .greeting{
+    margin-bottom: 2rem;
+} */
+
+
+/* .container .greeting .image{
+    background-color: gainsboro;
+} */
+
+.container .greeting .image img{
+    width: 80%;
+    animation-fill-mode: both;
+    animation-delay: 2000ms;
+    animation-duration: 0ms;
+    animation-iteration-count: 1;
+    /* animation-timeline:; */
+    animation-name: react-reveal-703250351393876-4;
+    
+}
+
+@keyframes react-reveal {
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity:1 ;
+    }
+}
+
+
+.container .greeting .package h2{
+    font-size: 3rem;
+    font-weight: 300;
+    color: rgb(23, 33, 61);
+    font-family: "Kanit", sans-serif ;
+    animation-fill-mode: both;
+    animation-delay: 1000ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-name: react-reveal-703250351393876-5;
+}
+
+
+@keyframes react-reveal-703250351393876-5{
+    from{
+        opacity: 0;
+        animation-delay: 500ms;
+
+    }
+    to{
+        animation-delay: 0ms;
+        opacity: 3;
+    }
+}
+
+.container .greeting .package .me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.container .greeting .package .me img{
+    width: 10vh;
+}
+
+
+.container .greeting .description .paragraph{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+.container .description .paragraph img{
+    width: 1.5rem;
+    height: 1.5rem;
+    color:gainsboro;
+    margin-top: -2rem;
+}
+
+
+.container .description .paragraph p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(90, 99, 119);
+    font-family:"Kanit", sans-serif ;
+}
+
+
+@media (max-width:480px) {
+     .container{
+        margin-top: 20%;
+        /* display: block; */
+        
+    }  
+    
+    .container h1{
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-top: 7rem;
+        
+        
+       
+    }
+
+    .container .greeting{
+        display: block;
+        align-items: center;
+
+    }
+
+    .container .greeting .image{
+        text-align: center;
+    }
+
+    /* .container .greeting .image img{
+        
+        
+        
+    } */
+    
+    
+
+    .container .greeting .package h2{
+        font-size: 1.5rem;
+        font-weight: 200;
+        text-align: center;
+        margin-top: 1rem;
+        
+    }
+
+
+    
+    
+    .container .description .paragraph img{
+        width: 1rem;
+        height: 1rem;
+        
+        margin-top: -0.2rem;
+       
+    }
+
+    .container .description .paragraph p{
+        font-size: 0.6rem;
+        font-weight: 300;
+        
+        
+    }
+    
+}
+
+@media (max-width:768px) {
+    .container{
+        margin-top: 20%;
+        /* display: block; */
+        
+    }  
+    
+    .container h1{
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-top: 23rem;
+        
+        
+       
+    }
+
+    .container .greeting{
+        display: block;
+        align-items: center;
+
+    }
+
+    .container .greeting .image{
+        text-align: center;
+    }
+
+    
+    
+
+    .container .greeting .package h2{
+        font-size: 3rem;
+        font-weight: 200;
+        text-align: center;
+        margin-top: 1rem;
+        
+    }
+
+
+    
+    
+    .container .description .paragraph img{
+        width: 1rem;
+        height: 1rem;
+        
+        /* margin-top: rem; */
+       
+    }
+
+    .container .description .paragraph p{
+        font-size: 1.5rem;
+        font-weight: 300;
+        
+        
+    }
+    
+}

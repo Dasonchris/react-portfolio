@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    /* margin-top: 6rem; */
+    
+}
+
+
+.content .image img{
+    width: 80%;
+}
+
+
+.content .content-text{
+        margin-top: -5rem;
+
+}
+.content .content-text h1{
+    font-size: 3rem;
+    font-weight: 300;
+    font-family: "Kanit", sans-serif;
+    color: rgb(23, 33, 61);
+}
+
+.content .content-text .images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+    /* width: 10vh; */
+}
+
+.content .content-text .images img{
+    width: 10vh;
+}
+
+
+.content .content-text .p .star{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.content .content-text .p .star img{
+    width: 1.5rem;
+    /* margin-top: -1rem; */
+    height: 1.5rem;
+}
+
+.content .content-text .p .star p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: rgb(90, 99, 119);
+    font-family:"Kanit", sans-serif 
+}
+
+
+
+ @media (max-width:480px) {
+    .content{
+        display: block;
+        align-items: center;
+        /* justify-content: center; */
+        
+ } 
+
+
+ .content .content-text{
+    margin-top: -0rem;
+
+}
+
+
+ .content .content-text h1{
+    font-size: 1.5rem;
+   text-align: center;
+   margin-bottom: -1rem;
+   
+}
+
+.content .image {
+    text-align: center;
+}
+
+.content .content-text .p .star img{
+    width: 1rem;
+    height: 1rem;
+}
+
+.content .content-text .p .star p{
+    font-size: 0.6rem;
+    font-weight: 400;
+    
+}
+
+}
+
+
+@media (max-width:768px) {
+    .content{
+        display: block;
+        align-items: center;
+        /* justify-content: center; */
+        
+ } 
+
+
+ .content .content-text{
+    margin-top: -0rem;
+
+}
+
+
+ .content .content-text h1{
+    font-size: 3rem;
+   text-align: center;
+   margin-bottom: 1rem;
+   margin-top: 1rem;
+   
+}
+
+.content .image {
+    text-align: center;
+}
+
+/* .content .image img{
+    width: 4rem;
+
+} */
+
+.content .content-text .p .star img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.content .content-text .p .star p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    
+}
+
+}
+
