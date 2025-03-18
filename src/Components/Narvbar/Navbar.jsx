@@ -29,22 +29,22 @@ function Navbar() {
         
           <Menu size={24} />
         
+          {/* <span></span>
           <span></span>
           <span></span>
           <span></span>
-          <span></span>
-          <span></span>
+          <span></span> */}
         </div>
         <ul className={menuOpen ? "open" : ""}>
-        {Tabs.map((tab, id) => {
+        {Tabs.map((Tab, id) => {
             return (
               <Link
-                to={tab.link}
-                onClick={() => handleMenuClick(tab.name)}
-                className={activeMenu === tab.name ? "active" : "tab"}
+                to={Tab.link}
+                onClick={() => handleMenuClick(Tab.name)}
+                className={activeMenu === Tab.name ? "active" : "tab"}
                 key={id}
               >
-                {tab.name}
+                {Tab.name}
               </Link>
             );
           })}
