@@ -13,7 +13,7 @@ function HeroSection() {
         <div className="constant">
           
            <h1>Prince Destiny</h1>
-           <h2>(Destiny )</h2>
+           <h2>( Destiny )</h2>
            <p>Passionate developer turning ideas into interactive experiences,<br /> <span> one line of code at a time, competitive programmer</span></p>
       
 

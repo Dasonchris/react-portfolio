@@ -101,16 +101,18 @@ body{
     /* border: none; */
 }
 
-.nav .menu span{
-    /* height: 0.4rem; */
-    /* width: 100%; */
-    /* background-color: var(---white); */
-    /* border-radius: 0.2rem; */
-}
 
 
 
-@media (max-width:480px) {
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
     .nav{
         border-radius: 0;
     }
@@ -118,9 +120,14 @@ body{
         display: flex;
     }
 
+   
+
     .navbar .logo span{
         font-size: 1rem;
+        
     }
+
+   
 
     /* .nav{
         flex-direction: column;
@@ -153,7 +160,13 @@ body{
 }
 
 
-@media (max-width:768px) {
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+   ##Screen = B/w 481px to 767px
+  */
+@media (min-width: 481px) and (max-width: 767px) {
     .nav{
         border-radius: 0.5rem;
     }
@@ -197,6 +210,88 @@ body{
    }
    
    
+}
+
+
+/* 
+      ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px
+    */
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        .nav{
+            border-radius: 0.5rem;
+        }
+        .navbar .logo span {
+            font-size: 1.2rem;
+           
+       }
+       
+       .nav .navbar ul{
+        display: flex;
+       
+        
+    }
+    
+    .active{
+        font-weight: 500;
+        font-size: 0.6rem;
+    }
+
+    .tab{
+        font-size: 0.8rem;
+    }
+       
+    
+       /* .nav ul.open {
+        display: flex;
+    } */
+         
+       
+       
+       
+       
+       .nav .menu{
+           display: none;
+           
+       } 
+    }
+
+
+     /* 
+      ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px
+    */
+  @media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* 
+    ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px
+  */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .tab{
+        font-size: 1.2rem;
+    }
+       
+       
+       .nav .menu{
+           display: none;
+           
+       } 
+    
+}
+
+
+
+@media (min-width: 1281px) {
+    .tab{
+        font-size: 1.6rem;
+    }
+
+    .active{
+        font-size: 1.4rem;
+    }
+
+    .nav .menu{
+        display: none;
+    }
 }
 
 
