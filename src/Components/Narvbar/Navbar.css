@@ -18,7 +18,7 @@ body{
 
 .nav{
     background-color: white;
-    z-index: -2px;
+    z-index: 2;
     position: fixed;
     top: 0;
     left: 0;
