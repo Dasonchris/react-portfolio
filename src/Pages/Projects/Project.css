@@ -192,7 +192,8 @@
     
     
     .card-section .card{
-        
+        height: 60vh;
+        width: 50vh;
         border-radius: 0rem;
         margin-bottom: 1.5rem;
         
@@ -206,7 +207,7 @@
     
 
     .card-section .card .title-div h1 a {
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         font-weight: 400;
         text-transform: uppercase;
         
@@ -216,15 +217,15 @@
     
     .card-section .title-description{
         
-        font-size: 0.5rem;
-        margin-bottom: 0.3rem;
+        font-size: 0.6rem;
+        margin-bottom: 1rem;
     }
     
     .card-section .repo-creation-date{
         
         font-weight: 300;
-        font-size: 0.6rem;
-        margin-bottom: 1rem;
+        font-size: 0.7rem;
+        margin-bottom: -0.5rem;
     }
 
 
@@ -560,6 +561,7 @@
     }
     .btn a button{
         font-size: 2rem;
+
     }
 
   }

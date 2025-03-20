@@ -95,7 +95,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
     .education-container{
         display: block;
-        text-align: center;
+        /* text-align: center; */
         margin-top: 30%;
     }
     
@@ -109,7 +109,7 @@
 
     .card{
         height: 50vh;
-        width: 50vh;
+        /* width: 50vh; */
         border-radius: 0.5rem;
     }
     
@@ -128,7 +128,7 @@
     .card-div h4{
         
         font-size: 0.6rem;
-        margin: 1rem 0 0.5rem -3rem;
+        /* margin: 1rem 0 0.5rem -3rem; */
     }
 
 
