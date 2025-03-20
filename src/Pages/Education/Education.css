@@ -101,15 +101,16 @@
     
     .education-container .img1 img{
         width: 40vh;
-        height: 40vh;
+        height: 30vh;
         margin-bottom: 2rem;
         margin-top: 2rem;
+        /* text-align: center; */
         
     }
 
     .card{
-        height: 50vh;
-        /* width: 50vh; */
+        /* height: 50vh; */
+        width: 40vh;
         border-radius: 0.5rem;
     }
     

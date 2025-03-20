@@ -192,7 +192,7 @@
     
     
     .card-section .card{
-        height: 60vh;
+        /* height: 60vh; */
         width: 50vh;
         border-radius: 0rem;
         margin-bottom: 1.5rem;
@@ -216,8 +216,8 @@
     
     
     .card-section .title-description{
-        
-        font-size: 0.6rem;
+        font-weight: 600;
+        font-size: 0.37rem;
         margin-bottom: 1rem;
     }
     
