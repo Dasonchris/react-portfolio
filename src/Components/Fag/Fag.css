@@ -3,7 +3,6 @@
   background-color: #ffff;
   padding: 1rem;
   margin-top: 10%;
-  /* margin: auto; */
 }
 .fag .toggle {
   border-bottom: 1px solid #e5e7eb;
@@ -38,11 +37,6 @@
 }
 
 
-/* .fag  .content{
-    text-align: center;
-    font-family: 700;
-} */
-
 .fag button {
   width: 100%;
   display: flex;
@@ -53,5 +47,124 @@
   border: none;
   cursor: pointer;
   font-family: "Kanit", sans-serif;
-  /* text-align: left; */
+ 
 }
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .fag {
+    padding: 0.8rem;
+    
+  }
+
+
+  .fag .section {
+    border: 1px solid rgb(228, 145, 21);
+    padding: 0.6rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    
+  }
+
+  .fag button {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+  
+  
+}
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+   ##Screen = B/w 481px to 767px
+  */
+  @media (min-width: 481px) and (max-width: 767px) {
+    .fag {
+      padding: 0.8rem;
+      
+    }
+  
+  
+    .fag .section {
+      border: 1px solid rgb(228, 145, 21);
+      padding: 0.6rem;
+      border-radius: 1.5rem;
+      text-align: center;
+      font-size: 1.4rem;
+      
+    }
+  
+    .fag button {
+      padding: 1rem;
+      font-size: 0.8rem;
+    }
+  }
+
+/* 
+    ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px
+  */
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)  {
+
+}
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px
+  */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+
+/* 
+  ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px
+*/
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .fag {
+    padding: 0.8rem;
+  }
+
+
+  .fag .section {
+    border: 1px solid rgb(228, 145, 21);
+    padding: 0.6rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    
+  }
+
+  .fag button {
+    padding: 2rem;
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (min-width: 1281px) {
+  .fag {
+    padding: 1rem;
+    
+  }
+
+
+  .fag .section {
+    border: 1px solid rgb(228, 145, 21);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    font-size: 3rem;
+    
+  }
+
+  .fag button {
+    padding: 2rem;
+    font-size: 2rem;
+  }
+  }

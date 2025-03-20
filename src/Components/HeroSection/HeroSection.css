@@ -48,9 +48,17 @@
   /* width: 3rem; */
 }
 
-.constant .links img:hover {
-  background-color: rgb(20, 33, 61);
-  color: white;
+
+
+.constant .links .me{
+  background-color: black;
+  border-radius: 5rem;
+  padding: 0rem;
+}
+
+.constant .links a img:hover {
+  /* background-color: rgb(20, 33, 61); */
+  color:black;
   border-radius: 5rem;
 }
 
@@ -77,6 +85,7 @@
 
 .constant a button:hover {
   color: rgb(20, 33, 61);
+  cursor: pointer;
 }
 
 /* .constant p span{

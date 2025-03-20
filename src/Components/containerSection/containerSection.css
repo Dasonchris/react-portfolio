@@ -153,7 +153,7 @@
         text-align: center;
         font-size: 2rem;
         font-weight: 600;
-        margin-top: 10rem;
+        margin-top: 8rem;
         
         
        
@@ -221,7 +221,7 @@
         text-align: center;
         font-size: 2rem;
         font-weight: 800;
-        margin-top: 23rem;
+        margin-top:17rem;
         
         
        
@@ -288,7 +288,6 @@
     }  
     
     .container h1{
-        /* text-align: center; */
         font-size: 2.5rem;
         font-weight: 600;
         margin-top: 40rem;
@@ -360,9 +359,6 @@
         text-align: center;
         font-size: 3rem;
         font-weight: 600;
-        margin-top: 23rem;
-        
-        
        
     }
 
@@ -417,13 +413,8 @@
     }  
     
     .container h1{
-        /* text-align: center; */
         font-size: 4rem;
         font-weight: 600;
-        margin-top: 23rem;
-        
-        
-       
     }
 
     

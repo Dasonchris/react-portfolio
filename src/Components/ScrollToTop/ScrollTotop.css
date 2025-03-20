@@ -1,12 +1,9 @@
 
 
 .scroll-to-top {
-    /* position: fixed; */
     bottom: 40px;
     right: 20px;
-    /* width: 50px; */
-    /* height: 50px; */
-    background-color: #0F1A34; /* Dark blue */
+    background-color: #0F1A34; 
     color: white;
     border: none;
     border-radius: 50%;
@@ -47,7 +44,8 @@
   @media (min-width: 320px) and (max-width: 480px) {
     .scroll-to-top.show {
       
-      top: 80%;
+      top: 85%;
+      right: 10px;
       width: 3rem;
       height:3rem ;
   
@@ -62,4 +60,39 @@
       height: 3rem;
     }
 
+  }
+
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .scroll-to-top.show{
+      width: 5rem;
+      height: 5rem;
+      padding: 2rem;
+    }
+  }
+
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+  }
+
+
+
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .scroll-to-top.show{
+      width: 5rem;
+      height: 5rem;
+      padding: 2rem;
+    }
+  }
+
+
+
+  @media (min-width: 1281px)  {
+    .scroll-to-top.show{
+      width: 7rem;
+      height: 7rem;
+      padding: 2.5rem;
+    }
   }

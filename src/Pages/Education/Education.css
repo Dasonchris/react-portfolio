@@ -29,7 +29,7 @@
     background-color: var(---white);
     height: 40vh;
     border-radius: 0.5rem;
-    /* padding: 2rem; */
+
 }
 .card .card-div{
     background-color: var(---yellow);
@@ -201,13 +201,6 @@
         
         }
         
-        
-        /* .card .card-img{
-            
-            padding: 0.1rem ;
-            margin-top: 0.9rem;
-        } */
-    
     
         .card .card-img img{
             width: 0.7rem;
@@ -263,13 +256,6 @@
        
     
     }
-    
-    
-    /* .card .card-img{
-        
-        padding: 0.1rem ;
-        margin-top: 0.9rem;
-    } */
 
 
     .card .card-img img{
@@ -304,18 +290,8 @@
     .education-container{
         margin-top: 30%;
     }
-    
-    /* .education-container .img1 img{
-        width: 30vh;
-        height: 30vh;
-        margin-bottom: 3rem;
-        
-    } */
 
-    /* .card{
-        height: 50vh;
-        border-radius: 0.5rem;
-    } */
+
     
     .card-div .card-p h2{
         font-size: 2rem;
@@ -326,7 +302,6 @@
         font-size: 1.5rem;
         font-weight: 500;
         margin-top: 1rem;
-        /* margin-left: -10rem; */
     }
     
     .card-div .card-p p{
@@ -382,7 +357,6 @@
         font-size: 1.5rem;
         font-weight: 500;
         margin-top: 1rem;
-        /* margin-left: -10rem; */
     }
     
     .card-div .card-p p{
@@ -391,13 +365,6 @@
        
     
     }
-    
-    
-    /* .card .card-img{
-        
-        padding: 0.1rem ;
-        margin-top: 0.9rem;
-    } */
 
 
     .card .card-img img{
