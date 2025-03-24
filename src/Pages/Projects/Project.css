@@ -41,7 +41,6 @@
     align-items: center;
     gap: 2rem 2rem;
     margin-top: 10%;
-    
 }
 
 
@@ -155,6 +154,10 @@
 
 
 @media (min-width: 320px) and (max-width: 480px) {
+     /* .nav{
+        width: 100%;
+     } */
+
     .project{
         display: flex;
         flex-direction: column;
@@ -171,7 +174,7 @@
 
     .project-container p{
        
-        font-size: 0.4rem;
+        font-size: 0.48rem;
         font-weight: 400;
        
     }
@@ -216,17 +219,19 @@
     }
     
     
-    .card-section .title-description{
-        width: 100%;
-        font-weight: 600;
-        font-size: 0.37rem;
-        margin-bottom: 1rem;
+     .card-section .title-description{
+        /* width: 100%; */
+         /* font-weight: 500;
+        font-size: 0.55rem;
+        margin-bottom: 1rem; */
       
     }
 
     .card-section .title-description p{
         width: 100%;
-        font-size: 0.4rem;
+        font-size: 0.65rem;
+         font-weight: 400;
+        margin-bottom: 1rem;
     }
     
     .card-section .repo-creation-date{
@@ -420,8 +425,7 @@
     */
   @media (min-width: 1025px) and (max-width: 1280px) {
     .project{
-        /* display: block; */
-        /* text-align: center; */
+       
         margin-top: 20%;
     }
     
@@ -439,6 +443,7 @@
     .project-container p{
         font-size: 0.8rem;
         font-weight: 400;
+        text-align: center;
     }
     
     

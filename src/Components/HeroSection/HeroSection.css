@@ -51,15 +51,15 @@
 
 
 .constant .links .me{
-  background-color: black;
+  /* background-color: black; */
   border-radius: 5rem;
   padding: 0rem;
 }
 
 .constant .links a img:hover {
   /* background-color: rgb(20, 33, 61); */
-  color:black;
-  border-radius: 5rem;
+  /* color:black; */
+  /* border-radius: 5rem; */
 }
 
 .constant button {

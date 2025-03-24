@@ -42,9 +42,7 @@ function Project() {
             <p>
               {" "}
               Todomatic- Is a simple yet powerful application designed to help
-              users organize their tasks efficiently. It allows users to add,
-              edit, mark as completed, and delete tasks, ensuring better task
-              management and productivity.Todomatic is built using React.
+              users organize their tasks efficiently.
             </p>
           </div>
           <div className="repo-creation-date">
@@ -56,17 +54,13 @@ function Project() {
             <img src={img2} alt="" />
             <h1 className="title">
               <a href=" https://prince2024-des.github.io/code-generator/">
-                Code-Generator
+                qr code-Generator
               </a>
             </h1>
           </div>
           <div className="title-description">
             <p>
-              Code Generator - Developed an automated code generation tool that
-              streamlines development by producing efficient, reusable code
-              based on predefined templates and rules. Designed to enhance
-              productivity, reduce manual effort, and minimize errors in
-              software projects.
+            A simple and efficient web application that allows users to input text or URLs and instantly generate a scannable QR code.
             </p>
           </div>
           <div className="repo-creation-date">

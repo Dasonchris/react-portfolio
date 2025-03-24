@@ -1,10 +1,10 @@
 import "./HeroSection.css";
 import React from "react";
-import img1 from "../../assets/github.png"
-import img2 from "../../assets/linkin.png"
-import img3 from "../../assets/twiter.png"
-import img4 from "../../assets/facebook.png"
-import img5 from "../../assets/instagram.png"
+import img1 from "../../assets/git.png"
+import img2 from "../../assets/link.png"
+import img3 from "../../assets/x.png"
+import img4 from "../../assets/fb.png"
+import img5 from "../../assets/insta.png"
 import img6 from "../../assets/Fresh.jpeg"
 
 function HeroSection() {

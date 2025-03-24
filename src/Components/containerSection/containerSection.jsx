@@ -37,10 +37,10 @@ function ContainerSection () {
                         <img src={img6} alt="" />
                         <p>Building web application using Modern  web Development practices.</p>
                     </div>
-                    <div className="paragraph">
+                    {/* <div className="paragraph">
                         <img src={img6} alt="" />
                         <p>Creating backend application using  Firebase and React.</p>
-                    </div>
+                    </div> */}
                 </div>
                 </div>
             </div>
