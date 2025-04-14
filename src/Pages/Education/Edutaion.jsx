@@ -1,4 +1,4 @@
-import React from "react";
+import { React } from "react";
 import "./Education.css";
 import Navbar from "../../Components/Narvbar/Navbar";
 import img1 from "../../assets/senior.png"
@@ -25,13 +25,18 @@ function Education() {
                 <h4>King David Senior High School</h4>
                 </div>
                 
+                {/* <div className="card-img">
+                     
+                </div> */}
                 <div className="card-img">
+                  <div>
+                      <img src={img2} alt="" />
+                      <p>  I was quite good in Computer Science and had good interest in it and got 80% in Computer Science  </p> </div>
+                       <br /> 
+                       <div>
                       <img src={img2} alt="" />
                       <p> I have studied basic GAs subjects and got 70% in Best of 3 subjects.</p>
-                </div>
-                <div className="card-img">
-                      <img src={img2} alt="" />
-                      <p>  I was quite good in Computer Science and had good interest in it and got 80% in Computer Science.</p>
+                      </div>
                 </div>
                
               </div>

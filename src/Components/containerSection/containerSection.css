@@ -281,24 +281,20 @@
       ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px
     */
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    .container{
-        text-align: center;
-       
-        
-    }  
-    
+   
+     
     .container h1{
         font-size: 2.5rem;
         font-weight: 600;
-        margin-top: 40rem;
+       
         
         
        
     }
 
     .container .greeting{
-        display: block;
-        align-items: center;
+        display:flex ;
+        /* align-items: center; */
 
     }
 
@@ -307,9 +303,9 @@
     
 
     .container .greeting .package h2{
-        font-size: 3rem;
-        font-weight: 300;
-        margin-top: 2rem;
+        font-size: 1rem;
+        font-weight: 400;
+        /* margin-top: 2rem; */
         
     }
 
@@ -317,22 +313,18 @@
     
     
     .container .description .paragraph img{
-        width: 2rem;
-        height: 2rem;
-        margin-top: 1rem;
+        width: 1rem;
+        height: 1rem;
+        margin-top: 0.3rem;
+        border-radius: 2rem;
        
     }
 
    
 
-    .container .greeting .package .description .paragraph{
-        display: block;
-        justify-content: center;
-        
-    }
-
+    
     .container .description .paragraph p{
-        font-size: 1.3rem;
+        font-size: 0.65rem;
         font-weight: 300;
         
         

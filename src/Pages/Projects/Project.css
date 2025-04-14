@@ -174,7 +174,7 @@
 
     .project-container p{
        
-        font-size: 0.48rem;
+        font-size: 0.5rem;
         font-weight: 400;
        
     }
@@ -196,8 +196,8 @@
     
     .card-section .card{
         height: 10rem;
-        width: 95%;
-        border-radius: 0rem;
+        width: 100%;
+        border-radius: 1rem;
         /* margin-bottom: 1.5rem; */
         padding: 0.5rem
         
@@ -211,7 +211,7 @@
     
 
     .card-section .card .title-div h1 a {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-weight: 400;
         text-transform: uppercase;
         
@@ -219,14 +219,7 @@
     }
     
     
-     .card-section .title-description{
-        /* width: 100%; */
-         /* font-weight: 500;
-        font-size: 0.55rem;
-        margin-bottom: 1rem; */
-      
-    }
-
+   
     .card-section .title-description p{
         width: 100%;
         font-size: 0.65rem;
@@ -237,8 +230,8 @@
     .card-section .repo-creation-date{
         
         font-weight: 300;
-        font-size: 0.7rem;
-        /* margin-bottom: -0.5rem; */
+        font-size: 0.8rem;
+       
     }
 
 
@@ -337,30 +330,30 @@
     */
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .project{
-        display: block;
-        text-align: center;
+        
         margin-top: 30%;
     }
     
     
     .project .image img {
-        width: 50%;
+       width: 75%;
         border-radius: 1rem;
     
     }
 
     .project-container h1{
         font-size: 3rem;
+        margin-bottom: 0.5rem;
     }
 
     .project-container p{
-        font-size: 0.7rem;
-        font-weight: 500;
+        font-size: 7.8px;
+        font-weight: 400;
     }
     
     
     .card-section {
-        display: block;
+       
         margin-top: 10%;
         
     }
@@ -370,9 +363,8 @@
     
     
     .card-section .card{
-        /* width: ; */
-        height: 50%;
-        border-radius: 0.5rem;
+        
+        padding: 1rem;
         margin-bottom: 2rem;
         
     }
@@ -385,7 +377,7 @@
     
 
     .card-section .card .title-div h1 a {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 400;
         text-transform: uppercase;
         
@@ -393,17 +385,17 @@
     }
     
     
-    .card-section .title-description{
+    .card-section .title-description p{
         
-        font-size: 0.9rem;
-        margin-bottom: 0.3rem;
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
     }
     
     .card-section .repo-creation-date{
         
         font-weight: 300;
-        font-size: 0.8rem;
-        margin-bottom: 1rem;
+        font-size: 1rem;
+      
     }
     .btn a button{
         font-size: 1.5rem;
@@ -480,12 +472,13 @@
     }
     
     
-    .card-section .title-description{
+     /* .title-description p {
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 5rem;
         margin-bottom: 0.8rem;
+        
     }
-    
+     */
     .card-section .repo-creation-date{
         
         font-weight: 400;

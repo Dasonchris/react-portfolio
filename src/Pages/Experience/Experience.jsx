@@ -1,8 +1,8 @@
-import React from "react"
-import "./Experience.css"
+import { React } from "react";
+import "./Experience.css";
 import Navbar from "../../Components/Narvbar/Navbar";
 import ScrollTotop from "../../Components/ScrollToTop/ScrollTotop";
-import img1 from "../../assets/guy.png"
+import img1 from "../../assets/guy.png";
 import Footer from "../../Components/Footer/Footer";
 import Fag from "../../Components/Fag/Fag";
   

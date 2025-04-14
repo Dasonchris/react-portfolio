@@ -1,5 +1,5 @@
-import { useState } from "react";
-import "./App.css";
+// import { useState } from "react";
+import { React} from "react"
 import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/HomePage/Home";
 import Education from "./Pages/Education/Edutaion";

@@ -1,4 +1,4 @@
-import React from "react";
+// import { React } from "react";
 
 export const Tabs = [
     {
@@ -27,4 +27,6 @@ export const Tabs = [
         link: "/contact",
         name: "Contact",
     }
-]
+];
+
+// export default Tabs;

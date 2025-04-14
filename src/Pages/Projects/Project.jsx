@@ -1,4 +1,4 @@
-import React from "react";
+import { React } from "react";
 import "./Project.css";
 import img1 from "../../assets/sit.png";
 import Navbar from "../../Components/Narvbar/Navbar";
@@ -18,13 +18,13 @@ function Project() {
         <div className="project-container">
           <h1>Projects</h1>
           <p>
-            Hi, I'm Prince Awlavi, a passionate Frontend Developer <br />{" "}
-            specializing in React, JavaScript, HTML . I love building <br />{" "}
+            Hi, I'm Prince Awlavi, a passionate Frontend Developer <br />
+            specializing in React, JavaScript, HTML . I love building <br />
             interactive and scalable web applications that enhance <br />
-            user experience. I enjoy solving complex problems and <br />{" "}
-            creating intuitive user interfaces.Whether it's developing <br />{" "}
+            user experience. I enjoy solving complex problems and <br />
+            creating intuitive user interfaces.Whether it's developing <br />
             dynamic web apps or optimizing performance, I'm always <br /> eager
-            to learn and innovate. Check out my projects below, Explore my work
+            to learn and innovate. Check out my projects below,  Explore my work
             and let's connect.
           </p>
         </div>
@@ -40,7 +40,7 @@ function Project() {
           </div>
           <div className="title-description">
             <p>
-              {" "}
+              
               Todomatic- Is a simple yet powerful application designed to help
               users organize their tasks efficiently.
             </p>
@@ -80,7 +80,7 @@ function Project() {
             <p>
               Vowel Counter - Developed a dynamic application that analyzes user
               input and counts the number of vowels in real-time. Built with
-              JavaScript{" "}
+              JavaScript
             </p>
           </div>
           <div className="repo-creation-date">
@@ -96,7 +96,7 @@ function Project() {
           </div>
           <div className="title-description">
             <p>
-              {" "}
+              
               Game - is a fun and educational game where players guess countries
               based on hints like flags, maps, capitals, or trivia.
             </p>

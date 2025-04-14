@@ -1,15 +1,15 @@
-import React from "react";
+import { React } from "react";
 import "./Contact.css";
 import Navbar from "../../Components/Narvbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import ScrollTotop from "../../Components/ScrollToTop/ScrollTotop";
 import img1 from "../../assets/handsome.jpeg";
-import img2 from "../../assets/github.png";
-import img3 from "../../assets/linkin.png";
-import img4 from "../../assets/twiter.png";
-import img5 from "../../assets/facebook.png";
-import img6 from "../../assets/instagram.png";
-import img7 from "../../assets/stand.png"
+import img2 from "../../assets/git.png";
+import img3 from "../../assets/link.png";
+import img4 from "../../assets/x.png";
+import img5 from "../../assets/fb.png";
+import img6 from "../../assets/insta.png";
+import img7 from "../../assets/stand.png";
 
 function Contact() {
   return (
@@ -28,19 +28,19 @@ function Contact() {
             </p>
           
           <div className="images">
-            <a href="https://github.com/Prince2024-des">
+            <a target= "_blank" href="https://github.com/Prince2024-des">
               <img src={img2} alt="" />
             </a>
-            <a href="https://www.linkedin.com/in/prince-awlavi-159085351/overlay/contact-info/?trk=public-profile-join-page&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BiA6IK2wWRjavhwKa6qssWA%3D%3D">
+            <a target= "_blank" href="https://www.linkedin.com/in/prince-awlavi-159085351/overlay/contact-info/?trk=public-profile-join-page&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BiA6IK2wWRjavhwKa6qssWA%3D%3D">
               <img src={img3} alt="" />
             </a>
-            <a href="https://x.com/awlavi31361#:~:text=Edit%20profile-,Prince%20awlavi,-%40awlavi31361">
+            <a target= "_blank" href="https://x.com/awlavi31361#:~:text=Edit%20profile-,Prince%20awlavi,-%40awlavi31361">
               <img src={img4} alt="" />
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100083516876457&sk=friends">
+            <a target= "_blank" href="https://www.facebook.com/profile.php?id=100083516876457&sk=friends">
               <img src={img5} alt="" />
             </a>
-            <a href="https://www.threads.net/@princeawlavi8?xmt=AQGz4e5BNkeCWmvaOO0p5pxD8eK4QIkt9xYOb_CTzTVP97E">
+            <a target= "_blank" href="https://www.threads.net/@princeawlavi8?xmt=AQGz4e5BNkeCWmvaOO0p5pxD8eK4QIkt9xYOb_CTzTVP97E">
               <img src={img6} alt="" />
             </a>
             </div>

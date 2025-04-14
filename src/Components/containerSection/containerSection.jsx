@@ -1,5 +1,6 @@
+import { React } from "react"
 import "./containerSection.css"
-import React from "react";
+
 import img1 from "../../assets/man.png"
 import im2 from "../../assets/react.png"
 import img3 from "../../assets/html.png"
@@ -31,7 +32,7 @@ function ContainerSection () {
                 <div className="description">
                     <div className="paragraph">
                         <img src={img6} alt="" />
-                        <p>Building interactive websites using React,<br /> Javascript,Html and css.</p>
+                        <p>Building interactive websites using React, Javascript,Html and css.</p>
                     </div>
                     <div className="paragraph"> 
                         <img src={img6} alt="" />

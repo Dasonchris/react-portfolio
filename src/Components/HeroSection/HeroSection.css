@@ -56,11 +56,11 @@
   padding: 0rem;
 }
 
-.constant .links a img:hover {
+/* .constant .links a img:hover {
   /* background-color: rgb(20, 33, 61); */
   /* color:black; */
   /* border-radius: 5rem; */
-}
+/* } */
 
 .constant button {
   width: 50%;
@@ -226,57 +226,49 @@
     ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px
   */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .hero {
-    display: flex;
-    flex-direction: column;
-   
-  }
+  
   .constant h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 3rem;
     font-weight: 600;
-    text-align: center;
+  
   }
 
   .hero .constant h2 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 600;
-    text-align: center;
+  
   }
 
   .hero .constant p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
-    text-align: center;
+
   }
 
   .constant .links {
     gap: 1.5rem;
-    display: flex;
-    justify-content: center;
+
+
   }
 
   .constant .links img {
-    width: 3rem;
+    width: 2.5rem;
   }
 
-  .constant a {
+  /* .constant a {
     text-align: center;
-  }
+  } */
 
   .constant a button {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
-  .hero .image {
-    text-align: center;
-    margin-top: 5rem;
-
-  }
+   
 
   .hero .image img {
-    height: 100vh;
-    width: 70vh;
+    height: 80vh;
+    width: 60vh;
   }
 }
 

@@ -1,5 +1,5 @@
-import "./Home.css"
-import React from "react";
+import "./Home.css";
+import { React } from "react";
 import Navbar from "../../Components/Narvbar/Navbar";
 import HeroSection from "../../Components/HeroSection/HeroSection";
 import ContainerSection from "../../Components/containerSection/containerSection";
@@ -15,13 +15,9 @@ function Home () {
         <HeroSection />
         <ContainerSection />
         <Backend />
-        <Footer />
         <ScrollToTop />
-
-
+        <Footer />
        
-
-
 
         </>
     );
