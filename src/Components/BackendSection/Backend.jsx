@@ -23,13 +23,10 @@ function Backend () {
                     <img src={img2} alt="" />
                     <p>Creating backend application using Javascript,React</p>
                 </div>
-                {/* <div className="star">
-                    <img src={img2} alt="" />
-                    <p>Deploying backend on cloud to use on mobile devices</p>
-                </div> */}
+                
                 <div className="star">
                     <img src={img2} alt="" />
-                    <p>An aspiring backend developer with strong foundation in  programming and database management</p>
+                    <p>An aspiring full-stalk developer with strong foundation in  programming and database management</p>
                 </div>
             </div>
          </div>

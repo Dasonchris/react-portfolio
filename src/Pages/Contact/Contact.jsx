@@ -3,7 +3,7 @@ import "./Contact.css";
 import Navbar from "../../Components/Narvbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import ScrollTotop from "../../Components/ScrollToTop/ScrollTotop";
-import img1 from "../../assets/handsome.jpeg";
+import img1 from "../../assets/chris.jpg";
 import img2 from "../../assets/git.png";
 import img3 from "../../assets/link.png";
 import img4 from "../../assets/x.png";
@@ -28,19 +28,19 @@ function Contact() {
             </p>
           
           <div className="images">
-            <a target= "_blank" href="https://github.com/Prince2024-des">
+            <a target= "_blank" href="/">
               <img src={img2} alt="" />
             </a>
-            <a target= "_blank" href="https://www.linkedin.com/in/prince-awlavi-159085351/overlay/contact-info/?trk=public-profile-join-page&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BiA6IK2wWRjavhwKa6qssWA%3D%3D">
+            <a target= "_blank" href="https://www.linkedin.com/in/dason-chris-38b57b327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
               <img src={img3} alt="" />
             </a>
-            <a target= "_blank" href="https://x.com/awlavi31361#:~:text=Edit%20profile-,Prince%20awlavi,-%40awlavi31361">
+            <a target= "_blank" href="https://www.instagram.com/chris_dason/profilecard/?igsh=bjl3cDFqdWFxbHI2">
               <img src={img4} alt="" />
             </a>
-            <a target= "_blank" href="https://www.facebook.com/profile.php?id=100083516876457&sk=friends">
+            <a target= "_blank" href="https://www.facebook.com/rose.chris.5249349">
               <img src={img5} alt="" />
             </a>
-            <a target= "_blank" href="https://www.threads.net/@princeawlavi8?xmt=AQGz4e5BNkeCWmvaOO0p5pxD8eK4QIkt9xYOb_CTzTVP97E">
+            <a target= "_blank" href="/">
               <img src={img6} alt="" />
             </a>
             </div>
@@ -55,7 +55,7 @@ function Contact() {
             <h1>Address</h1>
             <p>Ho,Volta Region,Ghana</p>
             <h1>Email</h1>
-            <p>princeawlavi83@gmail.com</p>
+            <p>dasonchris47@gmail.com</p>
         </div>
         </div>
       </div>

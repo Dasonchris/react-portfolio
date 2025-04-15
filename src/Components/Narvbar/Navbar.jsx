@@ -20,7 +20,7 @@ function Navbar() {
       <div className="navbar">
         <div className="logo">
           <Link to="/">
-            <span> Princedestiny </span>
+            <span> ChRiSDAsOn </span>
           </Link>
         </div>
         <div className="menu" onClick={() => {

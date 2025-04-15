@@ -20,9 +20,9 @@ function Education() {
                 <div className="card-div">
                   <div className="card-p">
                      <h2>High School</h2>
-                     <p>2022-2024</p>
+                     <p>2018-2021</p>
                   </div>
-                <h4>King David Senior High School</h4>
+                <h4>Anlo Senior High School</h4>
                 </div>
                 
                 {/* <div className="card-img">
@@ -31,11 +31,11 @@ function Education() {
                 <div className="card-img">
                   <div>
                       <img src={img2} alt="" />
-                      <p>  I was quite good in Computer Science and had good interest in it and got 80% in Computer Science  </p> </div>
+                      <p>  I was good in Computer Science and had interest in it so I got 80%   </p> </div>
                        <br /> 
                        <div>
                       <img src={img2} alt="" />
-                      <p> I have studied basic GAs subjects and got 70% in Best of 3 subjects.</p>
+                      <p> I have studied basic G.Arts subjects and got 70% in Best of 3 subjects.</p>
                       </div>
                 </div>
                

@@ -7,7 +7,7 @@ import img1 from "../../assets/love.png"
 function Footer () {
     return(
         <div className="footer">
-        <h2>Made with <img src={img1} alt="" /> by Prince Destiny </h2>
+        <h2>Made with <img src={img1} alt="" /> by ChRiS DaSoN </h2>
    </div>
 
     )

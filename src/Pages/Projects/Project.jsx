@@ -18,7 +18,7 @@ function Project() {
         <div className="project-container">
           <h1>Projects</h1>
           <p>
-            Hi, I'm Prince Awlavi, a passionate Frontend Developer <br />
+            Hi, I'm Dason Chris, a passionate Frontend Developer <br />
             specializing in React, JavaScript, HTML . I love building <br />
             interactive and scalable web applications that enhance <br />
             user experience. I enjoy solving complex problems and <br />
@@ -35,7 +35,7 @@ function Project() {
           <div className="title-div">
             <img src={img2} alt="" />
             <h1 className="title">
-              <a href="https://todomatic-pied.vercel.app/">Todomatic</a>
+              <a href="/">Todomatic</a>
             </h1>
           </div>
           <div className="title-description">
@@ -53,7 +53,7 @@ function Project() {
           <div className="title-div">
             <img src={img2} alt="" />
             <h1 className="title">
-              <a href=" https://prince2024-des.github.io/code-generator/">
+              <a href=" https://dasonchris.github.io/QR-Code-Generator/">
                 qr code-Generator
               </a>
             </h1>
@@ -71,7 +71,7 @@ function Project() {
           <div className="title-div">
             <img src={img2} alt="" />
             <h1 className="title">
-              <a href="https://prince2024-des.github.io/Vowel-Counter/">
+              <a href=" https://dasonchris.github.io/vowel_js/">
                 Vowel-Counter
               </a>
             </h1>
@@ -91,14 +91,13 @@ function Project() {
           <div className="title-div">
             <img src={img2} alt="" />
             <h1 className="title">
-              <a href="https://prince2024-des.github.io/Game/">Game</a>
+              <a href=" https://dasonchris.github.io/Coffee-App/">Coffee</a>
             </h1>
           </div>
           <div className="title-description">
             <p>
               
-              Game - is a fun and educational game where players guess countries
-              based on hints like flags, maps, capitals, or trivia.
+              Coffee website - is a website to take orders of what the customer would love to take to avoid over-crowding then get their remarks on customer care.
             </p>
           </div>
           <div className="repo-creation-date">
@@ -107,7 +106,7 @@ function Project() {
         </div>
       </div>
       <div className="btn">
-        <a href="https://github.com/Prince2024-des">
+        <a href="/">
           <button>More Projects</button>
         </a>
       </div>
