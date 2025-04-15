@@ -1,4 +1,4 @@
-import React from "react";
+import react from "react";
 import "./Backend.css"
 import img1 from "../../assets/hero.png"
 import img2 from "../../assets/star.png"
