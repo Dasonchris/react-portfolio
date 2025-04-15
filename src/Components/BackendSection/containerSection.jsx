@@ -1,5 +1,4 @@
 import "./containerSection.css"
-import react from "react";
 import img1 from "../../assets/man.png"
 import im2 from "../../assets/react.png"
 import img3 from "../../assets/html.png"
